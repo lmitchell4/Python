@@ -1,0 +1,79 @@
+## 1. Which of the following are operators, and which are values?
+
+Operators: *  -  /  +
+Values: 'hello'  -88.8  5
+
+
+## 2. Which of the following is a variable, and which is a string?
+spam is a variable
+'spam' is a string
+
+
+## 3. Name three data types.
+int, float, string
+
+
+## 4. What is an expression made up of? What do all expressions do?
+An expression is made up of operator(s) and argument(s).
+All expressions evaluate to a single value.
+
+
+## 5. This chapter introduced assignment statements, like spam = 10.
+##What is the difference between an expression and a statement?
+
+An assignment statement results in a value being assigned to a variable.
+An expression is stand-alone and doesn't get assigned to a variable.
+
+An expression evaluates to a single value. A statement does not.
+
+
+## 6. What does the variable bacon contain after the following code runs?
+bacon = 20
+bacon + 1
+
+bacon contains 20
+
+
+## 7. What should the following two expressions evaluate to?
+'spam' + 'spamspam'
+'spam' * 3
+
+Both evaluate to 'spamspamspam'
+
+
+## 8. Why is eggs a valid variable name while 100 is invalid?
+Variable names can't start with a number. There would be no way for
+Python to tell the variable 100 apart from the number 100.
+
+
+## 9. What three functions can be used to get the integer, floating-point number,
+## or string version of a value?
+
+int(), float(), str()
+
+
+## 10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+## Python can't concatenate a string and a number. Using str() on the 99
+## can fix it:
+'I have eaten ' + str(99) + ' burritos.'
+    
+
+## Extra credit: Search online for the Python documentation for the len()
+## function. It will be on a web page titled “Built-in Functions.” Skim the
+## list of other functions Python has, look up what the round() function does,
+## and experiment with it in the interactive shell.
+
+len(s)
+Return the length (the number of items) of an object. The argument may be a
+sequence (such as a string, bytes, tuple, list, or range) or a collection
+(such as a dictionary, set, or frozen set).
+
+round(number[, ndigits])
+Return the floating point value number rounded to ndigits digits after the
+decimal point. If ndigits is omitted, it returns the nearest integer to
+its input. Delegates to number.__round__(ndigits).
+
+
+
