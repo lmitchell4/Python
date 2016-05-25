@@ -1,0 +1,92 @@
+
+## 1. What is []?
+
+[] is an empty list.
+
+
+## 2. How would you assign the value 'hello' as the third value in a list stored in a variable named spam? (Assume spam contains [2, 4, 6, 8, 10].)
+
+spam[2] = 'hello'
+
+
+For the following three questions, let’s say spam contains the list ['a', 'b', 'c', 'd'].
+## 3. What does spam[int(int('3' * 2) // 11)] evaluate to?
+
+'d'
+
+
+## 4. What does spam[-1] evaluate to?
+
+'d'
+
+
+## 5. What does spam[:2] evaluate to?
+
+['a','b']
+
+
+For the following three questions, let’s say bacon contains the list [3.14, 'cat', 11, 'cat', True].
+## 6. What does bacon.index('cat') evaluate to?
+
+1
+
+
+## 7. What does bacon.append(99) make the list value in bacon look like?
+
+[3.14, 'cat', 11, 'cat', True, 99]
+
+
+## 8. What does bacon.remove('cat') make the list value in bacon look like?
+
+[3.14, 11, 'cat', True]
+
+
+## 9. What are the operators for list concatenation and list replication?
+
+Operator for list concatentation: +
+Operator for list replication: *
+
+
+## 10. What is the difference between the append() and insert() list methods?
+
+append() adds the value to the end of the list.
+insert() adds the value at the index specified.
+
+
+## 11. What are two ways to remove values from a list?
+
+The remove() method and the del statement can be used to remove values from a list.
+
+
+## 12. Name a few ways that list values are similar to string values.
+
+lists and strings can both be indexed, sliced, used in for loops, and used with in and not in, be used with len(), and be concatentated and replicated
+
+
+## 13. What is the difference between lists and tuples?
+
+lists are mutable, tuples are immutable.
+lists are defined with square brackets, [], while tuples are defined with parentheses ()
+
+
+## 14. How do you type the tuple value that has just the integer value 42 in it?
+
+(42,)
+
+
+## 15. How can you get the tuple form of a list value? How can you get the list form of a tuple value?
+
+The tuple() function can be used to get a tuple from a list.
+The list() function can be used to get a list from a tuple.
+
+
+## 16. Variables that “contain” list values don’t actually contain lists directly. What do they contain instead?
+
+Variables contain references to list values.
+
+
+## 17. What is the difference between copy.copy() and copy.deepcopy()?
+
+copy.copy() creates a copy of a list. If the list itself contains lists, copy.deepcopy() will also copy the inner lists.
+
+
